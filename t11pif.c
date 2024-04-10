@@ -28,7 +28,7 @@ void printMultiplicationTable(int n) {
 
 int main() {
     int number;
-    printf("Введите число n: ");
+    printf("input n: ");
     scanf("%d", &number);
     printMultiplicationTable(number);
     return 0;
